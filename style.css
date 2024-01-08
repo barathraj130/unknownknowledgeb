@@ -1,0 +1,32 @@
+body{
+    background-image: no-repeat;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    max-height: fit-content;
+    justify-content: space-between;
+    
+}
+.header section{
+    justify-content: space-between;
+}
+h1{
+    background-color: black;
+    color: yellow
+    border: 2px dotted black;
+    border-radius: 20%;
+    padding-left: 30%;
+}
+label{
+    color: red;
+}
+.h2classselector{
+    color:tomato;
+}
+.positionInCss{
+    position: relative;
+    background-color: azure;
+}
+.p login page{
+    justify-content:space-around;
+
+}
