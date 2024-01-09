@@ -1,32 +1,27 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header__section{
+    background-image: url(IMG_1697.JPG);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 20vh;
     background-image: no-repeat;
     background-repeat: no-repeat;
-    background-position: 50%;
-    max-height: fit-content;
-    justify-content: space-between;
-    
+       
 }
-.header section{
-    justify-content: space-between;
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: yellow;
 }
-h1{
-    background-color: black;
-    color: yellow
-    border: 2px dotted black;
-    border-radius: 20%;
-    padding-left: 30%;
-}
-label{
-    color: red;
-}
-.h2classselector{
-    color:tomato;
-}
-.positionInCss{
-    position: relative;
-    background-color: azure;
-}
-.p login page{
-    justify-content:space-around;
-
+.link{
+    color: brown;
+    display: flex;
+    align-items: center;
+    justify-self:self-start;
 }
